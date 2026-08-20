@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://keckek.github.io/futureready/sitemap.xml
