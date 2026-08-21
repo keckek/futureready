@@ -482,7 +482,7 @@ input[type=radio] + label:before {
 input[type=checkbox]:checked + label:before,
 input[type=radio]:checked + label:before {
   content: "";
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 8'%3e%3cpolygon points='9.53 0 4.4 5.09 1.47 2.18 0 3.64 2.93 6.54 4.4 8 5.87 6.54 11 1.46 9.53 0' fill='%23448AFF'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 11 8'%3e%3cpolygon points='9.53 0 4.4 5.09 1.47 2.18 0 3.64 2.93 6.54 4.4 8 5.87 6.54 11 1.46 9.53 0' fill='%23448AFF'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-size: 11px 8px;
   background-position: 50% 50%;
@@ -492,7 +492,7 @@ input[type=radio] + label:before {
   border-radius: 50%;
 }
 input[type=radio]:checked + label:before {
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3ccircle cx='4' cy='4' r='4' fill='%23448AFF'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3ccircle cx='4' cy='4' r='4' fill='%23448AFF'/%3e%3c/svg%3e");
 }
 
 [type=file] {
@@ -506,7 +506,7 @@ select {
   position: relative;
 }
 select:not([multiple]) {
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 6"><polygon points="3 6 3 6 0 0 6 0 3 6" fill="%238A8B8C"/></svg>') no-repeat 90% 50%;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 6 6"><polygon points="3 6 3 6 0 0 6 0 3 6" fill="%238A8B8C"/></svg>') no-repeat 90% 50%;
   background-size: 8px;
   padding-right: 2.9142857143rem;
 }
